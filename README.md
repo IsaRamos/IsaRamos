@@ -2,7 +2,7 @@
 
 I am a psychologist, with a postgraduate degree in teaching in education. Currently, I work as a customer success assistant for a company that offers courses related to game design. One of the reasons I am starting my studies in technology and programming. 
 
-I have experience as a scientific researcher and in the agile Scrum methodology.
+I have extensive experience as a scientific researcher and in applying the agile Scrum methodology.
 
 My primary hobby is gaming, which I adore! From digital games to tabletop RPG and board games.
 
