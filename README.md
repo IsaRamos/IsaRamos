@@ -1,10 +1,10 @@
 # 🎮 Isabela Ramos
 
-I am a psychologist, with a postgraduate degree in teaching in education. Currently, I work as a customer success assistant for a company that offers courses related to game design. One of the reasons I am starting my studies in technology and programming. 
+I am a psychologist, with a postgraduate degree in education. Currently, I work as a customer success assistant at a company specializing in game design courses. My current role has inspired me to start my studies in technology and programming. 
 
 I have extensive experience as a scientific researcher and in applying the agile Scrum methodology.
 
-My primary hobby is gaming, which I adore! From digital games to tabletop RPG and board games.
+I have a deep appreciation for narratives in various forms, including books, music, and movies. However, my primary hobby is gaming, which I adore! From digital games to tabletop RPG and board games.
 
 ### Connect with me
 
