@@ -10,7 +10,7 @@ However, my primary hobby is gaming, which I adore! From digital games to tablet
 
 ### Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/isabela-ramos-1b857666/)
+[//]: #([![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/isabela-ramos-1b857666/))
 [![Linktree](https://img.shields.io/badge/linktree-000000?style=for-the-badge&logo=linktree&logoColor=blue)](https://linktr.ee/IsaRamos)
 
 ### GitHub Stats
