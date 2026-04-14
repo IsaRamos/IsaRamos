@@ -1,0 +1,32 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Isso faz o robô rodar todo dia à meia-noite
+  workflow_dispatch:   # Isso permite que você aperte um botão para rodar agora
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Dá permissão para o robô salvar as imagens no seu repo
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar Card de Estatisticas
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          # O robô já sabe quem é você pelo 'github.repository_owner'
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical
+          path: stats.svg # Onde a imagem será salva
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salvar e dar Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.svg
+          git commit -m "Update stats card" || exit 0
+          git push
