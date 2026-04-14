@@ -22,6 +22,14 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&theme=radical
           path: stats.svg # Onde a imagem será salva
           token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Gerar Card de Linguagens
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=radical
+          path: top-langs.svg # Note que salvei direto na raiz, sem a pasta /profile/
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Salvar e dar Push
         run: |
