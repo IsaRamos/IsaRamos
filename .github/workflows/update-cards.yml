@@ -28,7 +28,7 @@ jobs:
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&theme=radical
-          path: top-langs.svg # Note que salvei direto na raiz, sem a pasta /profile/
+          path: top-langs.svg top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Salvar e dar Push
