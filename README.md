@@ -15,3 +15,4 @@ However, my primary hobby is gaming, which I adore! From digital games to tablet
 
 ### GitHub Stats
 ![Minhas Estatísticas](./stats.svg)
+![Linguagens Mais Usadas](./profile/top-langs.svg)
