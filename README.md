@@ -14,3 +14,4 @@ However, my primary hobby is gaming, which I adore! From digital games to tablet
 [![Linktree](https://img.shields.io/badge/linktree-000000?style=for-the-badge&logo=linktree&logoColor=blue)](https://linktr.ee/IsaRamos)
 
 ### GitHub Stats
+![Minhas Estatísticas](./stats.svg)
