@@ -16,23 +16,14 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: ${{ github.repository_owner }}
-          show_icons: true
-          cache_value: ${{ github.run_id }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p profile
+          curl -o profile/stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=default&cache_buster=${{ github.run_id }}"
 
       - name: Generate top languages card
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: ${{ github.repository_owner }}
-          layout: compact
-          langs_count: 6
-          cache_value: ${{ github.run_id }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p profile
+          curl -o profile/languages.svg "https://github-readme-stats.vercel.app/api/top-langs?username=${{ github.repository_owner }}&layout=compact&langs_count=6&cache_buster=${{ github.run_id }}"
 
       - name: Commit and push changes
         run: |
